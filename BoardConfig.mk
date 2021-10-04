@@ -77,6 +77,10 @@ BOARD_ROOT_EXTRA_SYMLINKS := /vendor/firmware_mnt:/firmware
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-12-05
 
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy_minimal
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
