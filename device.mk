@@ -6,6 +6,9 @@
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# Device Heap Configuration
+$(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 28
 
