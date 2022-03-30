@@ -78,13 +78,56 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0 \
+    android.hardware.audio@4.0 \
+    android.hardware.audio@5.0 \
+    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.1-impl \
+    android.hardware.soundtrigger@2.2-impl \
+    libaudioroute
+
+# Display
+PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0
+
+# Offload
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0 \
+    android.hardware.tetheroffload.control@1.0
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Net
+PRODUCT_PACKAGES += \
+    libandroid_net
+
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.2 \
+    android.hardware.radio@1.3 \
+    android.hardware.radio@1.4 \
+    android.hardware.radio.config@1.0 \
+    android.hardware.radio.config@1.1 \
+    android.hardware.radio.config@1.2 \
+    android.hardware.secure_element@1.0
+
 # VNDK 
 PRODUCT_TARGET_VNDK_VERSION := 29
+
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.1 \
+    android.hardware.wifi@1.2 \
+    android.hardware.wifi@1.3 \
+    android.hardware.wifi.supplicant@1.0 \
+    android.hardware.wifi.supplicant@1.1 \
+    android.hardware.wifi.supplicant@1.2
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/X505X/X505X-vendor.mk)
