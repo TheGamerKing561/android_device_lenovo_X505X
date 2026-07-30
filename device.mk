@@ -78,6 +78,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 800
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0 \
