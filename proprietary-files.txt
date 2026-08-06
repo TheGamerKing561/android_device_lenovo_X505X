@@ -1931,7 +1931,6 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 # Miscellaneous
 vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/LenovoRUStub/LenovoRUStub.apk
 vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/hw/capabilityconfigstoretest
@@ -2019,7 +2018,6 @@ vendor/etc/Diag.cfg
 vendor/etc/audio_output_policy.conf
 vendor/etc/audio_policy.conf
 vendor/etc/cacert_location.pem
-vendor/etc/fstab.qcom
 vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_wcd9335
 vendor/etc/gpfspath_oem_config.xml
