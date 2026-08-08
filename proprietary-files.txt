@@ -66,7 +66,7 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
 # Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
 product/lib/vendor.qti.hardware.alarm@1.0.so
 product/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -791,7 +791,7 @@ product/lib64/vendor.qti.hardware.data.qmi@1.0.so
 product/lib64/vendor.qti.hardware.factory@1.0.so
 product/lib64/vendor.qti.hardware.factory@1.1.so
 product/lib64/vendor.qti.latency@2.0.so
-vendor/app/CneApp/CneApp.apk
+-vendor/app/CneApp/CneApp.apk
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -1439,7 +1439,7 @@ vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.qcom.so
 
 # Radio
-product/app/QtiTelephonyService/QtiTelephonyService.apk
+-product/app/QtiTelephonyService/QtiTelephonyService.apk
 product/lib/vendor.qti.hardware.radio.am@1.0.so
 product/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 product/lib/vendor.qti.hardware.radio.lpa@1.0.so
@@ -1466,8 +1466,8 @@ product/lib64/vendor.qti.hardware.radio.uim@1.1.so
 product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 product/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/app/IWlanService/IWlanService.apk
+-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
 vendor/bin/hw/rild
 vendor/bin/ATFWD-daemon
@@ -1628,7 +1628,7 @@ product/lib64/vendor.qti.ims.rcsconfig@1.0.so
 product/lib64/vendor.qti.ims.rcsconfig@1.1.so
 product/lib64/vendor.qti.imsrtpservice@2.0.so
 product/lib64/vendor.qti.imsrtpservice@2.1.so
-product/priv-app/ims/ims.apk
+-product/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -1782,7 +1782,7 @@ vendor/lib64/libthermalclient.so
 vendor/etc/thermal-engine.conf
 
 # Time services
-vendor/app/TimeService/TimeService.apk
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
@@ -1913,7 +1913,7 @@ system/lib64/libmmrtpencoder.so
 system/lib64/libqdMetaData.system.so
 system/lib64/libwfdclient.so
 system/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
-system/priv-app/WfdService/WfdService.apk
+-system/priv-app/WfdService/WfdService.apk
 product/lib/vendor.qti.hardware.sigma_miracast@1.0.so
 product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/bin/wifidisplayhalservice
@@ -1929,10 +1929,10 @@ vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 
 # Miscellaneous
-vendor/app/CACertService/CACertService.apk
-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/SSGTelemetryService/SSGTelemetryService.apk
-vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
+-vendor/app/CACertService/CACertService.apk
+-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
+-vendor/app/SSGTelemetryService/SSGTelemetryService.apk
+-vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.qti.hardware.acc_calibrate@1.0-service
 vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
