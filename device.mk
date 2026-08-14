@@ -73,7 +73,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.rc \
     init.recovery.qcom.rc \
-    ueventd.rc \
+    ueventd.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
