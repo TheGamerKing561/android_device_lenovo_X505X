@@ -2287,4 +2287,3 @@ vendor/lib64/vendor.qti.hardware.acc_calibrate@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_dun@1.0.so
 vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/Diag.cfg
-vendor/ueventd.rc
